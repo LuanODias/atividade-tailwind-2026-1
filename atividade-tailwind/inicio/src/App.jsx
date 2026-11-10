@@ -7,8 +7,8 @@ import Footer from './components/Footer.jsx'
 
 export default function App() {
   return (
-    // EXERCÍCIO 1: estilize esta div (ela faz o papel do <body>)
-    <div>
+    // EXERCÍCIO 1: base da página
+    <div className="min-h-screen bg-stone-50 text-stone-800 font-sans antialiased">
       <Header />
       <main>
         <Hero />
